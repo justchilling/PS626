@@ -1,7 +1,7 @@
 import os
 import requests
 import csv
-from multiprocessing.pool import ThreadPool
+#from multiprocessing.pool import ThreadPool
 
 def download_url(url):
     output_directory = '/home/.../'
