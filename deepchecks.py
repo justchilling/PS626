@@ -25,7 +25,7 @@ for file in filenames:
             (SpecialCharacters().run(data)),
             (c.conditions_decision(r)), 
             (StringLengthOutOfBounds(min_unique_value_ratio=0.01).run(data)), file), 
-            file=open("/home/.../newresults.csv", "a") )
+            file=open("/home/.../results.csv", "a") )
     
 
 
